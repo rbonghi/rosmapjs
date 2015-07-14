@@ -3,7 +3,7 @@
  */
 
 var ROSMAP = ROSMAP || {
-  REVISION: '0.0.1'
+  REVISION: '0.0.2'
 };
 
 ROSMAP.VALUE_OBSTACLE = 100;
@@ -14,7 +14,7 @@ ROSMAP.VALUE_UNWRITTEN = 120;
 /**
  *
  */
- Array.prototype.repeat= function(what, L){
+ Array.prototype.repeat = function(what, L){
   while(L) {
     this[--L]= what;
   }
