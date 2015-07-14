@@ -3,7 +3,7 @@
  */
 
 var ROSMAP = ROSMAP || {
-  REVISION: '0.0.1'
+  REVISION: '0.0.2'
 };
 
 ROSMAP.VALUE_OBSTACLE = 100;
@@ -103,7 +103,7 @@ ROSMAP.EditorMap.prototype.updateSize = function(currentGrid) {
 
   this.x = currentGrid.pose.position.x;
   this.y -= currentGrid.pose.position.y;
-  
+
   canvasPic.onload = function () {
     that.context.drawImage(canvasPic, 0, 0);
   };
